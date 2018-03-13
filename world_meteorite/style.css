@@ -1,0 +1,50 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	font-family: "Arial", sans-serif;
+	font-size: 14px;
+	text-align: center;
+}
+
+svg {
+	background-color: #F5F2EB;
+	border: 1px solid #CCC;
+}
+
+path {
+  stroke: white;
+  stroke-width: 0.25px;
+  fill: grey;
+}
+
+.point {
+  opacity: 0.8;
+}
+
+.tooltip {
+  position: absolute;
+  display: block;
+  color: blue;
+  background-color: lightblue;
+  opacity: 0.8;
+  text-align: left;
+  top: 0px;
+  left: -75px;
+  width: 200px;
+}
+
+#buttons {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+a {
+	float: left;
+}
+
+button {
+	width: 112px;
+	background-color: lightblue;
+	border: 1px solid gray;
+}
